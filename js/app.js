@@ -534,8 +534,8 @@ window.openTeacherLoginModal = function() {
         <div class="space-y-4 text-xs">
             <div class="flex justify-between items-center border-b pb-3"><h3 class="font-bold text-base">Login Pengajar</h3><button onclick="closeModal()" class="w-8 h-8 bg-slate-100 rounded-xl flex items-center justify-center"><i class="fa-solid fa-xmark"></i></button></div>
             <form onsubmit="loginAsTeacher(event)" class="space-y-3">
-                <div><label class="block font-bold mb-1">Email Pengajar:</label><input type="email" id="teacher-email" placeholder="guru@sekolah.edu" required class="w-full border rounded-xl p-3"></div>
-                <div><label class="block font-bold mb-1">Password:</label><input type="password" id="teacher-pass" placeholder="Password (guru123)" required class="w-full border rounded-xl p-3"></div>
+                <div><label class="block font-bold mb-1">Email Pengajar:</label><input type="email" id="teacher-email" placeholder="Masukkan email pengajar..." required class="w-full border rounded-xl p-3"></div>
+                <div><label class="block font-bold mb-1">Password:</label><input type="password" id="teacher-pass" placeholder="Masukkan password..." required class="w-full border rounded-xl p-3"></div>
                 <div class="flex justify-end pt-2"><button type="submit" class="bg-indigo-600 text-white font-bold px-6 py-2.5 rounded-xl shadow">Masuk Dashboard</button></div>
             </form>
         </div>
@@ -547,7 +547,7 @@ window.openAdminLoginModal = function() {
         <div class="space-y-4 text-xs">
             <div class="flex justify-between items-center border-b pb-3"><h3 class="font-bold text-base">Login Admin</h3><button onclick="closeModal()" class="w-8 h-8 bg-slate-100 rounded-xl flex items-center justify-center"><i class="fa-solid fa-xmark"></i></button></div>
             <form onsubmit="loginAsAdmin(event)" class="space-y-3">
-                <div><label class="block font-bold mb-1">PIN Admin:</label><input type="password" id="admin-pin" placeholder="PIN (admin123)" required class="w-full border rounded-xl p-3"></div>
+                <div><label class="block font-bold mb-1">PIN / Password Admin:</label><input type="password" id="admin-pin" placeholder="Masukkan PIN keamanan..." required class="w-full border rounded-xl p-3"></div>
                 <div class="flex justify-end pt-2"><button type="submit" class="bg-slate-900 text-white font-bold px-6 py-2.5 rounded-xl shadow">Masuk Admin</button></div>
             </form>
         </div>
